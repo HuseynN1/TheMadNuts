@@ -1,0 +1,46 @@
+.container{
+    width: 80%;
+}
+.textbox{
+    font-size: 0.5em;
+    padding: 15px;
+    line-height: 30px;
+    display: flex;
+justify-content: space-around;
+   /* width: 100%; */
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.formData{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.nameAndSurname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.namesection,.surnamesection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+}
+.inp{
+    border-radius:5px ;
+    border: 0.8px solid rgb(219, 219, 219);
+    height: 42px;
+}
+.textInp{
+    font-size: 14px;
+    
+}

@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.container h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+.textbox{
+    width: 500px;
+    font-size: 0.5em;
+    padding: 1px;
+    background-color: white;
+    line-height: 30px;
+    
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.icondone{
+    width: 15px;
+  }
+.headerofsize h3{
+    font-size: 22px;
+}
+.headerofsize p{
+    font-size: 14px;
+}
+.sizeselection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.bodySize,.boysSize{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sizetext{
+    font-size: 18px;
+}
+.sizelist{
+    display: flex;
+    flex-direction: row;
+  list-style-type: none;
+gap: 20px;
+}
+.btn{
+  
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 0.3px solid;
+    padding:20px  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.btn:hover{
+  background-color: rgb(193, 196, 201);
+}
+.checking{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .features p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .features ul {
+    list-style-type: none;
+  }
+  .imgList {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+  }
+  .shortImg{
+    width: 100%;
+  }
+  .sizeguidePhoto{
+    width: 60px;
+    height: 60px;
+    
+  }
